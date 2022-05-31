@@ -1,0 +1,53 @@
+html, body, header, footer, hgroup, nav, article, section, h1, h2, h3, ul, li, div, p, img
+{  
+    margin: 0;
+    padding: 0;
+    font-size: 100%;
+    verticle-align: baselign;
+    border: 0;
+}
+
+.one
+{
+  background:teal;
+  color:white;
+  }
+.one h1 { font-size:100%; }
+.one h2 {font-size:75%; }
+
+ a:link {
+        text-decoration: none;
+        font-weight:bold;
+        }
+ a:visited
+        {
+         text-decoration: none;
+         color:purple;
+        }
+.two { 
+      background: grey;
+      }
+.three{
+       margin: 10px 100px 5px 40px;
+       }
+
+#four h3+p {color:grey;}
+[title= "pic1a"] {
+              border: solid 1pt grey;
+              padding:10px
+              } 
+#four p:last-child { color: grey;}
+ #five p:first-child { color: grey;}      
+ #six p:first-child { color: grey;} 
+
+#five, #six {line-height : 10px;}
+
+footer { 
+        margin: 10px 100px 20px 40px;
+        background: teal;}
+footer p{ color:white;}
+
+#main { 
+        margin: 0px 100px 10px 40px;
+        background: white;}
+body { background: darkcyan;}
