@@ -1,0 +1,56 @@
+html, body, header, footer, hgroup, nav, article, section, h1, h2, h3, ul, li, div, p, img
+{  
+    margin: 0;
+    padding: 0;
+   font-size: 100%;
+    verticle-align: baselign;
+    border: 0;
+}
+
+
+#one { 
+      background: navy;
+      color: white;
+      font-size:70px;
+       height: 10 px;
+      }
+
+#one1{ padding-left: 50px;
+       padding-top: 50px;
+      }
+#two { 
+      background: lightblue;
+      font-size:100%;
+      text-align:left;
+      padding-left: 50px;
+      }
+#four{ padding-left: 50px;
+     }
+#five{ 
+  
+  margin-left: 50%;
+    
+ }
+
+ #four h2 {
+          color: white;
+          background: navy;
+          margin-right:50px;
+          }
+#four p {border-left: solid 1pt navy;
+         border-right:solid 1pt navy;
+         border-bottom:solid navy;         
+          margin-right: 50px;}
+#try1,#six1,footer {
+           margin-top:20px;
+          color: white;
+          background: navy;
+          margin-right:0px;
+          }
+#try,#six {border-left: solid 1pt navy;
+         border-right:solid 1pt navy;
+         border-bottom:solid navy;         
+          margin-right: 50px;
+          margin-left:50px;}
+footer { margin-left: 50px;
+         margin-right: 40px;}
