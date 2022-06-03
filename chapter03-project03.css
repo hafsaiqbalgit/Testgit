@@ -1,0 +1,65 @@
+html, body, header, footer, hgroup, nav, article, section, h1, h2, h3, ul, li, div, p, img
+{  
+    margin: 0;
+    padding: 0;
+   font-size: 100%;
+    verticle-align: baselign;
+    border: 0;
+}
+body{ 
+      Background-image:url("D:/Projects/statue.jpg");
+      background-repeat: no-repeat;
+     background-size:cover;
+    }
+#firstbox {
+          box-sizing:content-box;
+          width:250px;
+          height: 60px;
+          margin-left:10px;
+          margin-top:0px;
+         background-color: white;
+          }
+
+ #firstbox h1{
+              font-family:"impact";
+              font-size:1.5em;
+              font-weight:lighter;
+              }
+#secondbox {
+          box-sizing:content-box;
+          width:300px;
+          height: 90px;
+          margin-left:10px;
+          margin-top:30px;
+          opacity: 0.6;
+          
+          }
+#secondbox h3 {
+              background-color: lightgrey;
+              padding-left:10px;
+              }
+#secondbox {background-color: dimgrey;
+            
+            }
+#secondbox p { 
+                padding-left: 10px;
+                padding-top: 10px;
+                 
+                }
+   #one     {
+             color: white;
+             background-color: black;
+             width: 250px;
+             padding-left:10px; 
+             margin-bottom:10px;
+            }
+ 
+ #two     {
+                   
+                   padding-top:10px;
+                   background-color: white;
+                   width: 290px; 
+                   height: 30px;  
+                    padding-left:10px;
+                              
+      }
